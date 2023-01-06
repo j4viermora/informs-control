@@ -19,3 +19,5 @@ const firebaseConfig = {
 
 // Initialize Firebase
 export const app = initializeApp(firebaseConfig);
+
+// Initialize the FirebaseUI Widget using Firebase.

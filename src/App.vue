@@ -1,4 +1,8 @@
-<script setup lang="ts"></script>
+<script setup lang="ts">
+import { useAuth } from "./composables";
+const { getSession } = useAuth();
+getSession();
+</script>
 
 <template>
   <div class="container">
